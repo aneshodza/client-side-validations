@@ -40,7 +40,7 @@ function App() {
           <Row>
             <Form.Group className='mb-3' controlId='formBasicEmail'>
               <FloatingLabel controlId='emailLabel' label='Password'>
-                <Form.Control type='email' placeholder='Password' />
+                <Form.Control type='password' placeholder='Password' />
               </FloatingLabel>
               <Form.Text className='text-muted' focus>
                 Must be 8 characters long, contain a number, an uppercase letter
@@ -52,7 +52,7 @@ function App() {
           <Row>
             <Form.Group className='mb-3' controlId='formBasicEmail'>
               <FloatingLabel controlId='emailLabel' label='Confirmation'>
-                <Form.Control type='email' placeholder='Confirmation' />
+                <Form.Control type='password' placeholder='Confirmation' />
               </FloatingLabel>
             </Form.Group>
           </Row>
