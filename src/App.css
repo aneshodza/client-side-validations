@@ -34,6 +34,10 @@ button.btn.btn-primary:hover {
   transition: all 0.3s ease;
 }
 
+.was-validated .form-control {
+  transition: none;
+}
+
 .form-control:focus {
   box-shadow: 0 0 10px 0 hsl(0, 0%, 74%);
   border: none;
