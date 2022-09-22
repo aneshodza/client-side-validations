@@ -39,7 +39,7 @@ function App() {
 
           <Row>
             <Form.Group className='mb-3' controlId='formBasicEmail'>
-              <FloatingLabel controlId='emailLabel' label='Password'>
+              <FloatingLabel controlId='passwordLabel' label='Password'>
                 <Form.Control type='password' placeholder='Password' />
               </FloatingLabel>
               <Form.Text className='text-muted' focus>
@@ -51,7 +51,7 @@ function App() {
 
           <Row>
             <Form.Group className='mb-3' controlId='formBasicEmail'>
-              <FloatingLabel controlId='emailLabel' label='Confirmation'>
+              <FloatingLabel controlId='confirmationLabel' label='Confirmation'>
                 <Form.Control type='password' placeholder='Confirmation' />
               </FloatingLabel>
             </Form.Group>
